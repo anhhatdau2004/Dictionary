@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="857.0" styleClass="third-color" stylesheets="@../style/navigation.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainController">
+   <children>
+      <VBox fx:id="sea" alignment="TOP_CENTER" prefHeight="661.0" prefWidth="57.0" style="-fx-background-color: white;">
+         <children>
+            <Button contentDisplay="TOP" mnemonicParsing="false" prefHeight="102.0" prefWidth="63.0" textFill="#b54848">
+               <styleClass>
+                  <String fx:value="button-favicon" />
+                  <String fx:value="text-navi-bar" />
+               </styleClass>
+            </Button>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="-1.0" layoutY="106.0" prefHeight="290.0" prefWidth="59.0">
+         <children>
+            <Button fx:id="searchButton" contentDisplay="TOP" mnemonicParsing="false" onAction="#showSearchPane" prefHeight="58.0" prefWidth="57.0" text="Tra từ" textFill="WHITE">
+               <font>
+                  <Font size="7.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="text-navi-bar" />
+                  <String fx:value="button-search" />
+               </styleClass>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="translateButton" contentDisplay="TOP" mnemonicParsing="false" onAction="#showTranslatePane" prefHeight="58.0" prefWidth="57.0" text="Google" textFill="WHITE">
+               <font>
+                  <Font size="7.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="text-navi-bar" />
+                  <String fx:value="button-translate" />
+               </styleClass>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="bookmarkButton" contentDisplay="TOP" mnemonicParsing="false" onAction="#showBookmarkPane" prefHeight="58.0" prefWidth="57.0" text="Đã lưu" textFill="#47586b">
+               <font>
+                  <Font size="7.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="text-navi-bar" />
+                  <String fx:value="button-favourite" />
+               </styleClass>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="mainHistoryButton" contentDisplay="TOP" mnemonicParsing="false" onAction="#showHistoryPane" prefHeight="58.0" prefWidth="57.0" text="Lịch sử" textFill="#8e9297">
+               <font>
+                  <Font size="7.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="text-navi-bar" />
+                  <String fx:value="button-history" />
+               </styleClass>
+            </Button>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="22.0" prefWidth="57.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0">
+         <children>
+            <Button fx:id="settingButton" contentDisplay="TOP" mnemonicParsing="false" onAction="#showSettingPane" prefHeight="82.0" prefWidth="82.0" textFill="#8e9297">
+               <font>
+                  <Font size="7.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="text-navi-bar" />
+                  <String fx:value="button-setting" />
+               </styleClass>
+            </Button>
+         </children>
+      </VBox>
+      <AnchorPane fx:id="mainContent" layoutX="57.0" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="57.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>
