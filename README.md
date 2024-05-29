@@ -6,6 +6,9 @@
 # Dictionary App
 - Ứng dụng từ điển giúp cho người dùng có thể tra cứu, học từ vựng tiếng Anh một cách nhanh và hiệu quả nhất.
 - Ứng dụng được viết bằng ngôn ngữ Java và sử dụng thư viện JavaFX để hỗ trợ tạo giao diện đồ hoạ.
+
+<img width="859" alt="Ảnh màn hình 2024-05-29 lúc 16 00 14" src="https://github.com/anhhatdau2004/Dictionary/assets/135736220/6d4cd5fd-8202-4031-9ff1-9f22143cc90b">
+
 # Tính năng
 - Tìm từ, mỗi khi gõ kí tự vào ô tìm kiếm, ứng dụng sẽ tự động đề xuất những từ bắt đầu bằng những kí tự đã nhập vào. Nếu từ nhập vào      không có trong từ điển, ứng dụng sẽ đề xuất những từ gần giống với từ nhập vào đó.
 - Với mỗi từ sẽ có phần giải nghĩa hiển thị ở bên phải của khu vực tìm kiếm.
