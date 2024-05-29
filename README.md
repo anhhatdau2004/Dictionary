@@ -6,7 +6,7 @@
 # Dictionary App
 - Ứng dụng từ điển giúp cho người dùng có thể tra cứu, học từ vựng tiếng Anh một cách nhanh và hiệu quả nhất.
 - Ứng dụng được viết bằng ngôn ngữ Java và sử dụng thư viện JavaFX để hỗ trợ tạo giao diện đồ hoạ.
-# Tính năng nổi bật
+# Tính năng
 - Tìm từ, mỗi khi gõ kí tự vào ô tìm kiếm, ứng dụng sẽ tự động đề xuất những từ bắt đầu bằng những kí tự đã nhập vào. Nếu từ nhập vào      không có trong từ điển, ứng dụng sẽ đề xuất những từ gần giống với từ nhập vào đó.
 - Với mỗi từ sẽ có phần giải nghĩa hiển thị ở bên phải của khu vực tìm kiếm.
 - Ứng dụng cho phép người dùng chuyển đổi từ điển, có thể sử dụng từ điển Anh-Việt hoặc Việt-Anh, và mỗi khi chuyển đổi, danh sách từ.     vựng sẽ được cập nhật lại ứng với từ điển mà người dùng muốn sử dụng.
