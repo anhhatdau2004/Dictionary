@@ -6,6 +6,3 @@
 # Thông tin về từ điển
 - Là sản p
 
-# Chức năng
-
-
