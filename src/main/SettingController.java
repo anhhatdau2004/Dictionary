@@ -15,7 +15,7 @@ import java.util.ResourceBundle;
 
 import org.controlsfx.control.textfield.TextFields;
 
-public class SettingController extends main.GeneralController implements Initializable {
+public class SettingController extends GeneralController implements Initializable {
     @FXML
     private TextField editTextEV;
     @FXML
@@ -195,7 +195,6 @@ public class SettingController extends main.GeneralController implements Initial
             "-slider-track-color: linear-gradient(to right, -slider-filled-track-color 0%%, "
                     + "-slider-filled-track-color %1$f%%, -fx-base %1$f%%, -fx-base 100%%);";
 
-
     @FXML
     void saveVoice() {
         VoiceRSS.speed = slider.getValue();
@@ -213,14 +212,6 @@ public class SettingController extends main.GeneralController implements Initial
     protected void voiceuk() throws Exception {
         VoiceRSS.Name = choiceBoxUK.getValue();
         VoiceRSS.language = "en-gb";
-        VoiceRSS.speed = slider.getValue();
-        VoiceRSS.speakWord("information");
-    }
-
-    @FXML
-    protected void voiceus() throws Exception {
-        VoiceRSS.Name = choiceBoxUS.getValue();
-        VoiceRSS.language = "en-us";
         VoiceRSS.speed = slider.getValue();
         VoiceRSS.speakWord("information");
     }

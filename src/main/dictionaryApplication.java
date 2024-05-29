@@ -12,7 +12,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.Objects;
 
-public class dictionaryApplication {
+public class dictionaryApplication extends Application {
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         loadSettingFromFile();

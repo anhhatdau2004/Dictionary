@@ -26,9 +26,9 @@ public class MainController implements Initializable {
     @FXML
     private SearchController searchController;
     @FXML
-    private main.BookmarkController bookmarkController;
+    private BookmarkController bookmarkController;
     @FXML
-    private main.HistoryController historyController;
+    private HistoryController historyController;
 
     @FXML
     private Button searchButton;
@@ -130,4 +130,3 @@ public class MainController implements Initializable {
         mainContent.getChildren().setAll(searchPane);
     }
 }
-
